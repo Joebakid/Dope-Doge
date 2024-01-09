@@ -89,6 +89,14 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+
+  .title-showcase {
+    font-size: 2rem;
+  }
+
   .showcase {
     grid-template-columns: 1fr;
     gap: 30px;

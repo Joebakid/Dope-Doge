@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Black Ops One", system-ui;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(to bottom, #c2a633, #cb9261);
+
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  color: #333;
+}
+
+/* //////////////////////// */
+
+/* nav */
+
+a {
+  display: flex;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: azure;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  /* transform: scale(0.9); */
+  margin: 20px 0;
+}
+
+.nav-container {
+  opacity: 0;
+}
+
+/* HEADER */
+
+header {
+  /* transform: scale(0.9); */
+  padding: 50px 0;
+}
+
+.showcase {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  /* padding: 100px 0; */
+  opacity: 0;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+}
+
+img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.title-showcase {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.text-showcase {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .showcase {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    /* padding: 200px 0; */
+  }
+
+  .text-showcase {
+    font-size: 1rem;
+  }
+}

@@ -39,7 +39,6 @@ gsap.fromTo(
     duration: 0.5,
 
     scale: 1,
-    ease: "bounce.out",
   },
   ">"
 );

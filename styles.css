@@ -88,9 +88,23 @@ img {
   font-size: 1.5rem;
 }
 
+.btn {
+  margin: 30px;
+  display: flex;
+  background-color: white;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
   .container {
     width: 90%;
+  }
+
+  header {
+    /* transform: scale(0.9); */
+    padding: 20px 0;
   }
 
   .title-showcase {
@@ -105,5 +119,14 @@ img {
 
   .text-showcase {
     font-size: 1rem;
+  }
+
+  .btn {
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
   }
 }

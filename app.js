@@ -31,7 +31,20 @@ gsap.fromTo(
 );
 
 gsap.fromTo(
-  ".showcase",
+  ".shocase-content-1",
+  { opacity: 0, scale: 2 },
+  {
+    opacity: 1,
+    stagger: 1,
+    duration: 0.5,
+
+    scale: 1,
+  },
+  ">"
+);
+
+gsap.fromTo(
+  ".shocase-content-2",
   { opacity: 0, scale: 2 },
   {
     opacity: 1,

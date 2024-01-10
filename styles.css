@@ -62,6 +62,12 @@ header {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   /* padding: 100px 0; */
+
+  overflow: hidden;
+}
+
+.shocase-content-1,
+.shocase-content-2 {
   opacity: 0;
 }
 

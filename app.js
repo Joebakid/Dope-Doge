@@ -42,3 +42,16 @@ gsap.fromTo(
   },
   ">"
 );
+
+gsap.fromTo(
+  ".btn",
+  { opacity: 0, scale: 2 },
+  {
+    opacity: 1,
+    stagger: 1,
+    duration: 0.5,
+
+    scale: 1,
+  },
+  ">"
+);
